@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexicon>
+    <word id="1">
+        <en>apple</en>
+        <fr>pomme</fr>
+        <type>nom</type>
+        <exercises>
+            <exercise>
+                <instruction>Quel est le synonyme de pomme ?</instruction>
+                <responses>
+                    <response>fruit</response>
+                    <response>légume</response>
+                </responses>
+                <correct>1</correct>
+            </exercise>
+        </exercises>
+    </word>
+</lexicon>
