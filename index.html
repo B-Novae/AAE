@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Lexique</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <h1>Gestion du Lexique</h1>
+    <div class="form-container">
+        <h2>Ajouter un Mot</h2>
+        <label for="word-en">Mot en Anglais:</label>
+        <input type="text" id="word-en" placeholder="Mot en anglais" required>
+
+        <label for="word-fr">Traduction en Français:</label>
+        <input type="text" id="word-fr" placeholder="Traduction en français" required>
+
+        <label for="word-type">Type:</label>
+        <input type="text" id="word-type" placeholder="Type (nom, adjectif...)" required>
+
+        <button onclick="addWord()">Ajouter Mot</button>
+    </div>
+
+    <div class="exercises-container">
+        <h2>Liste des Mots</h2>
+        <ul id="words-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
